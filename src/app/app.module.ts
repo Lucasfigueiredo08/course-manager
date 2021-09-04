@@ -1,3 +1,4 @@
+import { StarComponent } from './star/star.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/Forms';
@@ -8,7 +9,8 @@ import { CourseListComponent } from './course/course-list.component';
 @NgModule({
   declarations: [
     AppComponent,
-    CourseListComponent
+    CourseListComponent,
+    StarComponent
   ],
   imports: [
     BrowserModule,
