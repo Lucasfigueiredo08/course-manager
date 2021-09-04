@@ -23,13 +23,13 @@ export class CourseListComponent implements OnInit {
     this.filteredCourses = this._courses;
   }
 
-  set filtrar(value: string){
+  set filter(value: string){
     this._filterBy = value;
 
-    this.filteredCourses = this._courses.filter((course: Course) => course.name.toLocaleLowerCase().indexOf(this._filterBy.toLocaleLowerCase()) > -1)
+    this.filteredCourses = this._courses.filter((course: Course) => course.name.toLowerCase().indexOf(this._filterBy.toLocaleLowerCase()) > -1)
   }
 
-  get filtrar() {
+  get filter() {
     return this._filterBy;
   }
 
