@@ -25,4 +25,5 @@ export class CourseInfoComponent implements OnInit {
       error: err => console.log('Error', err)
     });
   }
+
 }
