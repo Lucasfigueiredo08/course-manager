@@ -1,7 +1,7 @@
-import { CourseService } from './course.service';
+import { CourseService } from '../course.service';
 import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute } from "@angular/router";
-import { Course } from './course';
+import { Course } from '../course';
 
 @Component({
   templateUrl: './course-info.component.html'
